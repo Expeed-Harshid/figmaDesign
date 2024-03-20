@@ -1,0 +1,345 @@
+body{
+    overflow-x: hidden;
+}
+/* navigation bar */
+.nav-icon{
+    color: rgb(200, 7, 200);
+    padding: 15px 5px;
+    font-size: larger;
+    padding-bottom: 0px;
+}
+.nav-text{
+    color: rgb(200, 7, 200);
+    padding: 15px 3px;
+    font-size: large;
+    padding-bottom: 0px;
+}
+.nav-left-icon p{
+    color: rgb(200, 7, 200);
+    font-size: medium;
+    text-align: center;
+    margin-top: 0px;
+}
+.nav-left-icon{
+    margin-top: 0px;
+    background-color: rgba(200, 7, 200, 0.434);
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    border: 1px solid rgb(200, 7, 200);
+}
+.nav-line{
+    height: 1px;
+    background-color: rgb(200, 7, 200);
+    width: 100%;
+}
+
+
+.row-one{
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-right: 12px;
+}
+.col-one{
+    display: flex;
+}
+.col-one i{
+    padding: 5px;
+}
+.col-two{
+    align-items: flex-end;
+    display: flex;
+}
+.text-small{
+    font-size: 12px;
+    padding-bottom: 3px;
+}
+.col-two-icon-text{
+    display: flex;
+    padding-left: 4px;
+}
+.col-two-icon-text i{
+    padding: 0px;
+    padding-top: 4px;
+    font-size: 20px;
+}
+.col-two-icon-text p{
+    font-size: 20px;
+    padding-top: 4px;
+}
+
+.add-bill{
+    background-color: rgb(200, 7, 200);
+    border-radius: 5px;
+    height: 150px;
+}
+
+.col-one-groceries{
+    background-color: rgb(4, 202, 4);
+    border: 1px solid rgb(4, 202, 4);
+    border-radius: 5px 0px 0px 5px;
+    width: 45%;
+    height: 150px;
+}
+.col-two-groceries{
+    border: 1px solid rgb(4, 202, 4);
+    border-radius: 0px 5px 5px 0px;
+    width: 55%;
+}
+.col-one-transportation{
+    background-color: orange;
+    height: 150px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid orange;
+    width: 45%;
+}
+.col-two-transportation{
+    border: 1px solid orange;
+    border-radius: 0px 5px 5px 0px;
+    width: 55%;
+}
+.col-one-food{
+    background-color: red;
+    height: 150px;
+    border-radius: 5px 0px 0px 5px;
+    width: 45%;
+}
+.col-two-food{
+    border: 1px solid red;
+    border-radius: 0px 5px 5px 0px;
+    width: 55%;
+}
+.col-one-fun{
+    background-color: brown;
+    height: 150px;
+    border-radius: 5px 0px 0px 5px;
+    width: 45%;
+}
+.col-two-fun{
+    border: 1px solid brown;
+    border-radius: 0px 5px 5px 0px;
+    width: 55%;
+}
+.col-one-health-care{
+    background-color: rgb(22, 209, 156);
+    height: 150px;
+    border-radius: 5px 0px 0px 5px;
+    width: 45%;
+}
+.col-two-health-care{
+    border: 1px solid rgb(22, 209, 156);
+    width: 55%;
+    border-radius: 0px 5px 5px 0px;
+}
+.col-one-utilities{
+    background-color: rgb(32, 39, 175);
+    width: 45%;
+    height: 150px;
+    border-radius: 5px 0px 0px 5px;
+}
+.col-two-utilities{
+    border: 1px solid rgb(32, 39, 175);
+    width: 55%;
+    border-radius: 0px 5px 5px 0px;
+}
+.col-one-misc{
+    height: 150px;
+    background-color: rgb(124, 55, 3);
+    width: 45%;
+    border-radius: 5px 0px 0px 5px;
+}
+.col-two-misc{
+    border: 1px solid rgb(124, 55, 3);
+    border-radius: 0px 5px 5px 0px;
+    width: 55%;
+}
+
+/* card styling */
+.heading-text{
+    padding-left: 8px;
+    padding-top: 3px;
+    font-size: 14px;
+
+}
+.icons{
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 10px;
+}
+.footer-text{
+    font-size: 8px;
+    margin-top: 35px;
+    margin-left: 10px
+}
+.col-two-text{
+    font-size: 10px;
+    color: grey;
+    padding: 0;
+    margin: 0;
+    padding-top: 55px;
+}
+.col-two-spend i{
+    padding: 0;
+    padding-right: 2px;
+}
+.spend-color-groceries{
+    color: rgb(4, 202, 4);
+}
+.spend-color-transportation{
+    color: orange;
+}
+.spend-color-food{
+    color: red;
+}
+.spend-color-fun{
+    color: brown;
+}
+.spend-color-healthcare{
+    color: rgb(22, 209, 156);
+}
+.spend-color-utilities{
+    color: rgb(32, 39, 175);
+}
+.spend-color-misc{
+    color: rgb(124, 55, 3);
+}
+
+/* add bills modal style */
+.modal-line{
+    height: 0.5px;
+    width: 100%;
+    background-color: rgb(200, 7, 200);
+}
+.button-close-custom{
+    background-color: white;
+    color: rgb(200, 7, 200);
+    border: 1px solid rgb(200, 7, 200);
+    border-radius: 3px;
+    margin: 0px 5px;
+    padding: 5px 20px;
+    font-size: 13px;
+    transition: 0.5s;
+}
+.button-close-custom:hover{
+    background-color: rgba(200, 7, 200, 0.307);
+}
+.button-save-custom{
+    color: white;
+    border: 1px solid rgb(200, 7, 200);
+    background-color: rgb(200, 7, 200);
+    border-radius: 3px;
+    margin: 0px 5px;
+    padding: 5px 20px;
+    font-size: 13px;
+}
+.modal-text{
+    font-size: 13px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.modal-field{
+    border: 1px solid rgb(200, 7, 200);
+    border-radius: 2px;
+    width: 100%;
+    font-size: 13px;
+    height: 30px;
+}
+.modal-field i{
+    font-size: 16px;
+    
+}
+.field-large{
+    height: 100px; 
+}
+.amount-icon-custom{
+    color: white;
+    background-color: rgb(200, 7, 200);
+    height: 30px;
+    width: 35px;
+    padding-top: 3px;
+    padding-left: 7px;
+    border-radius: 2px 0px 0px 2px;
+}
+.amount-text-custom{
+    height: 30px;
+    padding-right: 4px;
+    border: 1px solid rgb(200, 7, 200);
+    width: 100%;
+    border-radius: 0px 2px 2px 0px;
+    text-align: end;
+}
+
+/* Utitlity page style */
+
+/* first nav */
+.back-button{
+    text-decoration: none;
+    cursor: pointer;
+}
+.back-icon{
+    color: grey;
+}
+.back-text{
+    font-size: 13px;
+    margin-top: 1.8px;
+    color: gray;
+}
+
+.date-text{
+    font-size: 12px;
+}
+.total-section-text-large{
+    color: rgb(32, 39, 175);
+}
+.total-section-text-small{
+    font-size: 10px;
+    padding-top: 7px;
+}
+.total-section-button{
+    font-size: 12px;
+    height: 27px;
+    width: 75px;
+    background-color: rgb(163, 5, 163);
+    border: 0;
+    border-radius: 2px;
+    transition: 1s;
+}
+.total-section-button:hover{
+    background-color: rgba(200, 7, 200);
+}
+
+/* utility table style */
+
+.table{
+    border: 0px solid rgb(200, 7, 200);
+}
+.utility-table-head{
+    font-size: 10px;
+}
+.utility-table-data p{
+    font-size: 12px;
+    padding-top: 10px;
+}
+.utility-table-data i{
+    font-size: 10px;
+    padding-top: 14px;
+}
+.amount-text{
+    text-align: right;
+}
+.amount{
+    padding-top: 10px;
+}
+.amount i{
+    font-size: 13px;
+    padding: 0;
+    padding-right: 0;
+}
+.amount p{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0;
+    padding-right: 0;
+}
